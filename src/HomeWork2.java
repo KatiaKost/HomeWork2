@@ -39,6 +39,7 @@ public class HomeWork2 {
         String fathersName = input.nextLine();
         System.out.println(fathersName + ", не часто встречаю такое имя. А сколько у тебя сестёр?");
         int numberOfSisters = input.nextInt();
+        input.nextLine();
         System.out.println(numberOfSisters + "ого, у меня тоже есть несколько сестер.)))");
 
         System.out.println("Какая социальная сеть тебе нравится?");
@@ -73,6 +74,7 @@ public class HomeWork2 {
 
         System.out.println("Сколько было тебе лет, когда пришла первая любовь?");
         int firstLove = input.nextInt();
+        input.nextLine();
         System.out.println(firstLove + "? ООООО, это так крууутооо.");
 
         System.out.println("Что тебе хотелось бы украсть в супермаркете?");
